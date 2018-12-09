@@ -1,0 +1,101 @@
+h1 {
+    font-size: 200%;
+    color: orange;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    border: 5px black solid;
+}
+.header {
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    border: 5px orange solid;
+    width: 100%;
+    height: 10%;
+    color: white;
+}
+/* Navbar links to locations on the website */
+.topnav {
+    font-size: 200%;
+    color: black;
+    text-align: center;
+    background-color: orange;
+    border: 5px black solid;
+    width: 100%;
+    height: 15%;
+}
+/* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 8px black solid;
+}
+/* Navbar links color on hover */
+.topnav a:hover {
+    background-color: white;
+    color: black;
+    border: 8px black solid;
+}
+.after:hover {
+    display: table;
+    clear: both;
+    border: 8px black solid;
+}
+/* 3 columns move vertical instead if horizontal upon viewing on smaller screens or on re-sizing. For 2 columns change the width to 50%; for 4 columns change the width to 25%, etc.*/
+@media screen {
+    max-width: 600px;
+}
+/* For unequal columns within content section
+
+/* Sets up all 3 column's widths, equal widths */
+table {
+    float: left;
+    border: 3px black solid;
+    width: 100%;
+}
+/* Sets up left and right columns: left column w = 25%, middle w = 50%, right column w = 25% */
+.leftside {
+    width: 180px;
+    height: 600px;
+    text-align: center;
+    border: 5px blue solid;
+    font-size: 200%;
+    color: black;
+    outline: 3px white solid;
+    background-color: orange;
+}
+/* Middle column  */
+.middle {
+    width: 350px;
+    height: 600px;
+    text-align: center;
+    border: 5px blue solid;
+    font-size: 200%;
+    color: black;
+    outline: 3px white solid;
+    background-color: orange;
+}
+.rightside {
+    width: 180px;
+    text-align: center;
+    border: 5px blue solid;
+    height: 600px;
+    font-size: 200%;
+    color: black;
+    outline: 3px white solid;
+    background-color: orange;
+}
+.end {
+    font-size: 200%;
+    color: black;
+    text-align: center;
+    border: 5px blue solid;
+    outline: 3px orange solid;
+    height: 400px;
+    background-color: orange;
+}
